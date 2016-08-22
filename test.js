@@ -39,7 +39,13 @@ var validURLs = [
   'http://host.xz/path/to/repo.git/',
   'https://host.xz/path/to/repo.git/',
   'git@github.com:user/some-project.git',
-  'git@github.com:user/some_project.git'
+  'git@github.com:user/some_project.git',
+  'user@host.xz:/path/to/repo.git/',
+  'user@host.xz:~user/path/to/repo.git/',
+  'user@host.xz:path/to/repo.git',
+  'user@host.xz:path/to/repo.git/',
+  'user123@host.xz:path/to/repo.git/',
+  'User.123-1@host.xz:path/to/repo.git/',
 ];
 
 var invalidURLs = [
@@ -50,11 +56,9 @@ var invalidURLs = [
   '~/path/to/repo.git',
   'file:///path/to/repo.git/',
   'file://~/path/to/repo.git/',
-  'user@host.xz:/path/to/repo.git/',
   'host.xz:/path/to/repo.git/',
-  'user@host.xz:~user/path/to/repo.git/',
   'host.xz:~user/path/to/repo.git/',
-  'user@host.xz:path/to/repo.git',
+  'us@er@host.xz:path/to/repo.git/',
   'host.xz:path/to/repo.git',
   'rsync://host.xz/path/to/repo.git/'
 ];
