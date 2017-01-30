@@ -1,4 +1,4 @@
-# git-clone-able [![NPM version](https://badge.fury.io/js/git-clone-able.svg)](http://badge.fury.io/js/git-clone-able)  [![Build Status](https://travis-ci.org/jonschlinkert/git-clone-able.svg)](https://travis-ci.org/jonschlinkert/git-clone-able)
+# git-clone-able [![NPM version](https://badge.fury.io/js/git-clone-able.svg)](http://badge.fury.io/js/git-clone-able)  [![Build Status](https://travis-ci.org/kasbah/git-clone-able.svg)](https://travis-ci.org/kasbah/git-clone-able)
 
 > Regex to validate that a URL is a clone able git url.
 
@@ -47,7 +47,7 @@ $ npm i -d && npm test
 
 ## Contributing
 
-Pull requests and stars are always welcome. For bugs and feature requests, [please create an issue](https://github.com/jonschlinkert/git-clone-able/issues/new)
+Pull requests and stars are always welcome. For bugs and feature requests, [please create an issue](https://github.com/kasbah/git-clone-able/issues/new)
 
 ## Original Author of is-git-url
 

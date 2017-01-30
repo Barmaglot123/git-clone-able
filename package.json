@@ -1,7 +1,7 @@
 {
   "name": "git-clone-able",
-  "description": "Regex to validate that a URL is a git url.",
-  "version": "0.1.0",
+  "description": " Regex to validate that a URL is clone able by Git",
+  "version": "0.1.1",
   "homepage": "https://github.com/kasbah/git-clone-able",
   "author": "Kaspar Emanuel (https://github.com/kasbah)",
   "contributers": ["Jon Schlinkert (https://github.com/jonschlinkert)"],
