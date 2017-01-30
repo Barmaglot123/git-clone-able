@@ -1,8 +1,8 @@
-# git-clone-able [![NPM version](https://badge.fury.io/js/git-clone-able.svg)](http://badge.fury.io/js/git-clone-able)  [![Build Status](https://travis-ci.org/kasbah/git-clone-able.svg)](https://travis-ci.org/kasbah/git-clone-able)
+# git-clone-able [![NPM version](https://img.shields.io/npm/v/git-clone-able.svg)](https://www.npmjs.com/package/git-clone-able)  [![Build Status](https://travis-ci.org/kasbah/git-clone-able.svg)](https://travis-ci.org/kasbah/git-clone-able)
 
-> Regex to validate that a URL is a clone able git url.
+> Regex to validate that a URL is a clone able Git url.
 
-This is a fork of [is-git-url](https://github.com/jonschlinkert/is-git-url) that tries to accept _any_ URLs that are clone able by git. See [is-git-url#9](https://github.com/jonschlinkert/is-git-url/pull/9).
+This is a fork of [is-git-url](https://github.com/jonschlinkert/is-git-url) that tries to accept _any_ URLs that are clone able by Git. See [is-git-url#9](https://github.com/jonschlinkert/is-git-url/pull/9).
 
 ## Install
 
