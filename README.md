@@ -1,6 +1,6 @@
 # git-clone-able [![NPM version](https://img.shields.io/npm/v/git-clone-able.svg)](https://www.npmjs.com/package/git-clone-able)  [![Build Status](https://travis-ci.org/kasbah/git-clone-able.svg)](https://travis-ci.org/kasbah/git-clone-able)
 
-> Regex to validate that a URL is a clone able Git url.
+> Regex to validate that a URL is a clone able by Git.
 
 This is a fork of [is-git-url](https://github.com/jonschlinkert/is-git-url) that tries to accept _any_ URLs that are clone able by Git. See [is-git-url#9](https://github.com/jonschlinkert/is-git-url/pull/9).
 
