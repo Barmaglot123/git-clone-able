@@ -1,35 +1,36 @@
-# is-git-url [![NPM version](https://badge.fury.io/js/is-git-url.svg)](http://badge.fury.io/js/is-git-url)  [![Build Status](https://travis-ci.org/jonschlinkert/is-git-url.svg)](https://travis-ci.org/jonschlinkert/is-git-url)
+# git-clone-able [![NPM version](https://badge.fury.io/js/git-clone-able.svg)](http://badge.fury.io/js/git-clone-able)  [![Build Status](https://travis-ci.org/jonschlinkert/git-clone-able.svg)](https://travis-ci.org/jonschlinkert/git-clone-able)
 
-> Regex to validate that a URL is a git url.
+> Regex to validate that a URL is a clone able git url.
 
-See [http://git-scm.com/book/ch4-1.html](http://git-scm.com/book/ch4-1.html) for more info.
+This is a fork of [is-git-url](https://github.com/jonschlinkert/is-git-url) that tries to accept _any_ URLs that are clone able by git. See [is-git-url#9](https://github.com/jonschlinkert/is-git-url/pull/9).
 
 ## Install
 
 Install with [npm](https://www.npmjs.com/)
 
 ```sh
-$ npm i is-git-url --save
+$ npm i git-clone-able --save
 ```
 
 ## Usage
 
 ```js
-var isGitUrl = require('is-git-url');
+var gitCloneAble = require('git-clone-able');
 
-isGitUrl('git://github.com/jonschlinkert/is-git-url.git');
+gitCloneAble('https://github.com/kasbah/git-clone-able');
 //=> true
 
-isGitUrl('https://github.com/jonschlinkert/');
+gitCloneAble('https://github.com:kasbah/git-clone-able');
 //=> false
 ```
 
-Edit on [debuggex](https://www.debuggex.com/r/WeYxcD7Ghp5ekrPR/0#cheatsheet)
+[Debuggex](https://www.debuggex.com) can be quite helpful if you want to amend and understand the regex.
 
-[![image](https://cloud.githubusercontent.com/assets/383994/2627089/bd37da5c-bdf9-11e3-9c26-d2b02f46bc24.png)](http://git-scm.com/book/ch4-1.html)
+[![image](debuggex.png)](https://www.debuggex.com)
 
 ## Related
 
+* [is-git-url](https://github.com/jonschlinkert/is-git-url): The project this is forked from. It has stricter rules and will reject some URLs that _are_ clone able. 
 * [git-repo-name](https://github.com/jonschlinkert/git-repo-name): Get the repository name from the git remote origin URL.
 * [git-username](https://github.com/jonschlinkert/git-username): Get the username from a git remote origin URL.
 * [github-contributors](https://github.com/jonschlinkert/github-contributors): Generate a markdown or JSON list of contributors for a project using the GitHub API.
@@ -46,9 +47,9 @@ $ npm i -d && npm test
 
 ## Contributing
 
-Pull requests and stars are always welcome. For bugs and feature requests, [please create an issue](https://github.com/jonschlinkert/is-git-url/issues/new)
+Pull requests and stars are always welcome. For bugs and feature requests, [please create an issue](https://github.com/jonschlinkert/git-clone-able/issues/new)
 
-## Author
+## Original Author of is-git-url
 
 **Jon Schlinkert**
 

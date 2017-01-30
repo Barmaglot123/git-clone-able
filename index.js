@@ -1,6 +1,7 @@
 /*!
  * is-git-url <https://github.com/jonschlinkert/is-git-url>
  *
+ * Copyright (c) 2016, Kaspar Emanuel.
  * Copyright (c) 2014-2015, Jon Schlinkert.
  * Licensed under the MIT License.
  */
